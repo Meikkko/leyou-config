@@ -7,8 +7,8 @@ spring:
     host: 127.0.0.1
   rabbitmq:
     virtual-host: /leyou
-    username: /leyou
-    password: leyou
+    username: meiko
+    password: meiko
     host: 127.0.0.1
 eureka:
   client:
