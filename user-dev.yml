@@ -47,6 +47,6 @@ hystrix:
       execution:
         isolation:
           thread:
-            timeoutInMillisecond: 10000 # 熔断超时时长：10000ms
+            timeoutInMillisecond: 10000   # 熔断超时时长：10000ms
 mybatis:
   type-aliases-package: com.leyou.user.pojo
