@@ -10,7 +10,7 @@ spring:
       cluster-name: elasticsearch
       cluster-nodes: 127.0.0.1:9300
   datasource:
-    url: jdbc:mysql://127.0.0.1:3306/leyou?characterEncoding=UTF-8&useSSL=false
+    url: jdbc:mysql://127.0.0.1:3306/leyou?useSSL=false&serverTimezone=UTC
     username: root
     password: root
     driver-class-name: com.mysql.jdbc.Driver
