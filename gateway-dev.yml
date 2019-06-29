@@ -20,7 +20,7 @@ eureka:
 
 zuul:
   prefix: /api # 添加路由前缀
-  retryable: true
+  retryable: true #开启重试机制
   routes:
     item-service: /item/**  #商品微服务
     search-service: /search/**  #搜索微服务
