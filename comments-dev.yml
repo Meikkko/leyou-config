@@ -11,7 +11,7 @@ spring:
       database: leyoudb
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/leyou?useSSL=false&serverTimezone=UTC
+    url: jdbc:mysql://localhost:3306/meiko?useSSL=false&serverTimezone=UTC
     username: root
     password: root
     hikari:
