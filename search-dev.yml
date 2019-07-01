@@ -9,9 +9,16 @@ spring:
       cluster-nodes: 127.0.0.1:9300
   rabbitmq:
     host: 127.0.0.1
-    virtual-host: /leyou
     username: meiko
     password: meiko
+    virtual-host: /leyou
+    template:
+      retry:
+        enabled: true
+        max-interval: 210000ms
+        initial-interval: 10000ms
+        multiplier: 2
+      publisher-confirms: true
   jackson:
     default-property-inclusion: non_null # 配置json处理时忽略空值
   resources:
