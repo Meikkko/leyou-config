@@ -18,7 +18,8 @@ spring:
         max-interval: 210000ms
         initial-interval: 10000ms
         multiplier: 2
-      publisher-confirms: true
+      exchange: leyou.item.exchange
+    publisher-confirms: true
   jackson:
     default-property-inclusion: non_null # 配置json处理时忽略空值
   resources:
